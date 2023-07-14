@@ -1,0 +1,1 @@
+COMPANY_EMPLOYEE_CREATED = "Companies and employees created successfully."
