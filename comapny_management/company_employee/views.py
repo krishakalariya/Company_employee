@@ -2,9 +2,9 @@ import pandas as pd
 from rest_framework import generics
 from rest_framework.response import Response
 
-from django_basic.company_employee.constants import COMPANY_EMPLOYEE_CREATED
-from django_basic.company_employee.models import Company, Employee
-from django_basic.company_employee.serializers import CompanySerializer, EmployeeSerializer, CompanyEmployeeSerializer
+from company_employee.constants import COMPANY_EMPLOYEE_CREATED
+from company_employee.models import Company, Employee
+from company_employee.serializers import CompanySerializer, EmployeeSerializer, CompanyEmployeeSerializer
 
 
 class CompanyEmployeeData(generics.ListCreateAPIView):

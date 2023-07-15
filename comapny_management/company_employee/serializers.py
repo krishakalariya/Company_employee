@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from django_basic.company_employee.models import Employee, Company
+from company_employee.models import Employee, Company
 
 
 class CompanySerializer(serializers.ModelSerializer):
